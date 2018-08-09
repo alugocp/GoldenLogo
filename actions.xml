@@ -3,15 +3,28 @@
     <Actions category="Scripts">
         <text>Golden Logo</text>
 
-        <Action name="myAction">
+        <Action name="golopp">
         <icon></icon>
-        <text>My Script</text>
-        <whatsThis></whatsThis>
-        <toolTip></toolTip>
+        <text>Enlarge</text>
+        <whatsThis>A GoldenLogo plugin action</whatsThis>
+        <toolTip>Enlargens the circle by the golden ratio</toolTip>
         <iconText></iconText>
-        <activationFlags>10000</activationFlags>
+        <activationFlags>00000</activationFlags>
         <activationConditions>0</activationConditions>
-        <shortcut>ctrl+alt+shift+p</shortcut>
+        <shortcut>ctrl+shift+p</shortcut>
+        <isCheckable>false</isCheckable>
+        <statusTip></statusTip>
+        </Action>
+
+        <Action name="golomm">
+        <icon></icon>
+        <text>Reduce</text>
+        <whatsThis>A GoldenLogo plugin action</whatsThis>
+        <toolTip>Reduces the circle by the golden ratio</toolTip>
+        <iconText></iconText>
+        <activationFlags>00000</activationFlags>
+        <activationConditions>0</activationConditions>
+        <shortcut>ctrl+shift+l</shortcut>
         <isCheckable>false</isCheckable>
         <statusTip></statusTip>
         </Action>

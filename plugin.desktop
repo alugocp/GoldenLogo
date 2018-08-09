@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Service
-ServiceTypes=Krita/PythonPlugin
-X-KDE-Library=golden
-X-Python-2-Compatible=true
-Name=Golden Logo
-Comment=Created by Alex Lugo to help logo designers utilize the golden ratio
